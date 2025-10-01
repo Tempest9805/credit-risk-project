@@ -29,21 +29,26 @@ Dashboard interactivo de análisis de riesgo crediticio que permite monitorear y
 - **Coverage:** 90.9% del portfolio con threshold conservador
 
 ## 🏗️ Arquitectura del Proyecto
-credit-risk-analysis/
-├── data/
-│ ├── raw/credit.csv # Datos originales
-│ ├── credit.db # Base de datos SQLite
-│ └── schema.json # Esquema de datos
-├── notebooks/
-│ ├── 01_setup.py # ETL inicial y creación de DB
-│ ├── 02_dq_checks.py # Data Quality y limpieza
-│ └── 03_aggregates_export.py # Agregados y features
-├── dashboards/
-│ ├── *.csv # Datos para visualización
-│ └── credit_risk_dashboard.pbix # Dashboard Power BI
-└── docs/
-└── screenshots/ # Capturas del dashboard
 
+```
+credit-risk-analysis/
+├── 📁 data/
+│   ├── 📄 raw/credit.csv              # Datos originales
+│   ├── 🗄️ credit.db                   # Base de datos SQLite
+│   └️ 📄 schema.json                 # Esquema de datos
+├── 📁 notebooks/
+│   ├️ 🐍 01_setup.py                 # ETL inicial y creación de DB
+│   ├️ 🐍 02_dq_checks.py             # Data Quality y limpieza
+│   └️ 🐍 03_aggregates_export.py     # Agregados y features
+│   └️ 🐍 04_model_pd                 # Entrena el modelo de probabilidad de default (PD) y genera predicciones por cliente.
+│   └️ 🐍 05_thresholds_report.py     # Evalúa distintos umbrales de PD y exporta métricas (precision, recall, f1, etc.) para análisis y dashboards.
+
+├── 📁 dashboards/
+│   ├️ 📊 *.csv                       # Datos para visualización
+│   └️ 📈 credit_risk_dashboard.pbix  # Dashboard Power BI
+│   # Capturas del dashboard
+│   # Credit_Default_Risk_Dashboard.pbix (archivo de powerBi)
+```
 
 ## Hallazgos Clave del Análisis
 🎯 Patrones Identificados
