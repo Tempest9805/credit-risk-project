@@ -1,0 +1,10 @@
+ANÁLISIS DE CALIDAD DE DATOS - POST LIMPIEZA
+==================================================
+Dataset: 150000 filas, 15 columnas
+Filas con issues: 0 (0.0%)
+Duplicados: 0
+
+IMPUTACIONES:
+• MonthlyIncome: 29731 valores imputados
+• NumberOfDependents: 3924 valores imputados
+• age: 1 valores imputados

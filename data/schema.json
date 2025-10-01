@@ -1,6 +1,5 @@
 {
   "person_id": "int64",
-  "Unnamed: 0": "int64",
   "default_flag": "int64",
   "RevolvingUtilizationOfUnsecuredLines": "float64",
   "age": "int64",
@@ -11,5 +10,8 @@
   "NumberOfTimes90DaysLate": "int64",
   "NumberRealEstateLoansOrLines": "int64",
   "NumberOfTime60-89DaysPastDueNotWorse": "int64",
-  "NumberOfDependents": "float64"
+  "NumberOfDependents": "float64",
+  "MonthlyIncome_missing": "int64",
+  "NumberOfDependents_missing": "int64",
+  "age_missing": "int64"
 }

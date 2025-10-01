@@ -1,0 +1,8 @@
+{
+  "rows": 150000,
+  "unique_persons": 150000,
+  "defaults_by_age_decile": "c:\\Users\\Danie\\OneDrive\\Documentos\\DataEngineer\\ProyectosPortafolio\\credit-risk-project\\dashboards\\defaults_by_age_decile.csv",
+  "defaults_by_income_decile": "c:\\Users\\Danie\\OneDrive\\Documentos\\DataEngineer\\ProyectosPortafolio\\credit-risk-project\\dashboards\\defaults_by_income_decile.csv",
+  "defaults_by_utilization_bucket": "c:\\Users\\Danie\\OneDrive\\Documentos\\DataEngineer\\ProyectosPortafolio\\credit-risk-project\\dashboards\\defaults_by_utilization_bucket.csv",
+  "customer_scorecard_features": "c:\\Users\\Danie\\OneDrive\\Documentos\\DataEngineer\\ProyectosPortafolio\\credit-risk-project\\dashboards\\customer_scorecard_features.csv"
+}
